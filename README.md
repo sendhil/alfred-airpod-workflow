@@ -10,7 +10,7 @@ In order to use this Workflow, you'll need to install [blueutil](https://github.
 
 1. Download the `alfredworkflow` [file](https://github.com/sendhil/alfred-airpod-workflow/raw/main/Connect%20to%20Airpods.alfredworkflow) and import it into Alfred.
 2. Install blueutil. If you have homebrew, just run `brew install blueutil`.
-3. Install the CLI helper by cloning `https://github.com/sendhil/airpod_alfred_connector`. Assuming you have cargo installed, run `cargo install --path .` from within the project. Instructions on installing Cargo can be found [here](https://doc.rust-lang.org/cargo/getting-started/installation.html). 
+3. Install the CLI helper by cloning https://github.com/sendhil/airpod_alfred_connector. Assuming you have cargo installed, run `cargo install --path .` from within the project. Instructions on installing Cargo can be found [here](https://doc.rust-lang.org/cargo/getting-started/installation.html). 
 4. Within the Alfred workflow, make sure you configure the `BLUEUTIL_PATH` and the `CLI_PATH` (both are currently set to where they live on my computer). If you aren't sure how to do this, check out this screenshot [here](https://user-images.githubusercontent.com/437043/185488620-808f34ec-99b6-49e6-aff8-77f4c2f96753.png).
 5. To check that everything is working correctly, type in `airp` and hit enter, you should see a list of any bluetooth device you've paired with that has "Airpod" (Case-/insensitive) in the title.
 
