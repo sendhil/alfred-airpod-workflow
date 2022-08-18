@@ -1,6 +1,6 @@
 # Alfred Airpod Workflow
 
-![Connecting and Disconnecting Flow](https://user-images.githubusercontent.com/437043/185487123-52d6439f-53e3-48dd-b3f0-771561035d44.gif)
+![Connect](https://user-images.githubusercontent.com/437043/185495573-c3191458-dba0-4cc0-9b8c-e622284d8645.gif)
 
 I made this workflow because MacOS doesn't always properly connect/disconnect from my Airpods and I didn't want to have to use the mouse to do so. There are other Alfred Workflows that do this, but the one I was most recently using stopped working and I thought it was a good excuse to figure out how to make my own Workflow.
 
@@ -21,11 +21,11 @@ The primary entry point for using the workflow is to type `airp` into Alfred and
 To specify set of devices for the Workflow, you can use the `airp configure` command which will list all Bluetooth devices your Mac is paired with. Selecting a device and hitting it enter will save it to a list of devices that the Workflow displays when running the main command.
 
 Here's an example of what this looks like:
-![Configure Workflow](https://user-images.githubusercontent.com/437043/185489665-e6d305f6-5b44-451d-8668-19defa4bd1fb.gif)
+![Specify Devices](https://user-images.githubusercontent.com/437043/185495641-425a3741-816d-4b1f-b422-f96da4a4712f.gif)
 
 To remove a device you have saved, enter `airp configure` hit `Cmd-Enter` which lists out the saved devices. From here, select the device you want to remove and then hit "Cmd-Enter" again and it will remove it from the list. Here's an example of what this looks like:
 
-https://user-images.githubusercontent.com/437043/185493230-dd74a16b-ac3a-424a-9078-14f212c103f8.mp4
+![Remove Device](https://user-images.githubusercontent.com/437043/185495678-de7dd48a-21b8-4b08-8935-d3289e224444.gif)
 
 # Known Issues
 
